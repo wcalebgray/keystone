@@ -1,5 +1,12 @@
 # @keystonejs/adapter-knex
 
+## 9.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d)]:
+  - @keystonejs/keystone@9.0.0
+
 ## 9.0.3
 
 ### Patch Changes

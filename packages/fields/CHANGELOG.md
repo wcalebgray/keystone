@@ -1,5 +1,17 @@
 # @keystonejs/fields
 
+## 9.0.6
+
+### Patch Changes
+
+- [`60e2c7eb`](https://github.com/keystonejs/keystone/commit/60e2c7eb2298a016c68a19a056040a3b45beab2a) Thanks [@Vultraz](https://github.com/Vultraz)! - Fixed a bunch more duplicate field class names (no functional changes).
+
+- Updated dependencies []:
+  - @keystonejs/adapter-knex@9.0.4
+  - @keystonejs/adapter-mongoose@8.0.3
+  - @keystonejs/test-utils@6.1.2
+  - @keystonejs/app-admin-ui@5.12.1
+
 ## 9.0.5
 
 ### Patch Changes

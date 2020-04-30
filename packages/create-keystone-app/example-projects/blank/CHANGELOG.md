@@ -1,5 +1,15 @@
 # @keystonejs/example-projects-blank
 
+## 5.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d)]:
+  - @keystonejs/keystone@9.0.0
+  - @keystonejs/adapter-mongoose@8.0.3
+  - @keystonejs/app-admin-ui@5.12.1
+  - @keystonejs/app-graphql@5.1.7
+
 ## 5.0.4
 
 ### Patch Changes

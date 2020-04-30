@@ -1,5 +1,18 @@
 # @keystonejs/demo-custom-fields
 
+## 1.0.1
+
+### Patch Changes
+
+- [`60e2c7eb`](https://github.com/keystonejs/keystone/commit/60e2c7eb2298a016c68a19a056040a3b45beab2a) Thanks [@Vultraz](https://github.com/Vultraz)! - Fixed a bunch more duplicate field class names (no functional changes).
+
+- Updated dependencies [[`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d), [`60e2c7eb`](https://github.com/keystonejs/keystone/commit/60e2c7eb2298a016c68a19a056040a3b45beab2a)]:
+  - @keystonejs/keystone@9.0.0
+  - @keystonejs/fields@9.0.6
+  - @keystonejs/adapter-mongoose@8.0.3
+  - @keystonejs/app-admin-ui@5.12.1
+  - @keystonejs/app-graphql@5.1.7
+
 ## 1.0.0
 
 ### Major Changes

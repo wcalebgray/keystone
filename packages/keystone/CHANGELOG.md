@@ -1,5 +1,40 @@
 # @keystonejs/keystone
 
+## 9.0.0
+
+### Major Changes
+
+- [`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d) [#2861](https://github.com/keystonejs/keystone/pull/2861) Thanks [@timleslie](https://github.com/timleslie)! - Moved the cookie configuration from individual options to an object which is passed directly to the express-session middleware.
+  Previously you could only set `secure` and `maxAge` via `secureCookies` and `cookieMaxAge`.
+  These options have been removed.
+  You can now set a config option called `cookie` which can contain `secure` and `maxAge`, as well as `domain`, `expires`, `httpOnly`, `path` and `sameSite`.
+
+  The `sameSite` option is now explicitly defaulted to `false`.
+
+  See the [express-session middleware docs](https://github.com/expressjs/session#cookie) for more details on these options..
+
+  #### Default
+
+  ```javascript
+  const keystone = new Keystone({
+    cookie: {
+      // domain: undefined,
+      // expires: undefined,
+      // httpOnly: true,
+      maxAge: 1000 * 60 * 60 * 24 * 30, // 30 days
+      sameSite: false,
+      // path: '/',
+      secure: process.env.NODE_ENV === 'production', // Defaults to true in production
+    },
+  });
+  ```
+
+### Patch Changes
+
+- Updated dependencies [[`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d), [`60e2c7eb`](https://github.com/keystonejs/keystone/commit/60e2c7eb2298a016c68a19a056040a3b45beab2a)]:
+  - @keystonejs/session@7.0.0
+  - @keystonejs/fields@9.0.6
+
 ## 8.1.4
 
 ### Patch Changes

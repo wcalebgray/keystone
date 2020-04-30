@@ -1,5 +1,17 @@
 # keystone_demo_blog
 
+## 5.3.4
+
+### Patch Changes
+
+- Updated dependencies [[`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d), [`60e2c7eb`](https://github.com/keystonejs/keystone/commit/60e2c7eb2298a016c68a19a056040a3b45beab2a)]:
+  - @keystonejs/keystone@9.0.0
+  - @keystonejs/fields@9.0.6
+  - @keystonejs/adapter-mongoose@8.0.3
+  - @keystonejs/app-admin-ui@5.12.1
+  - @keystonejs/app-graphql@5.1.7
+  - @keystonejs/auth-password@5.1.7
+
 ## 5.3.3
 
 ### Patch Changes
